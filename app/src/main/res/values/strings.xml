@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">RU Burger</string>
+
+    <!-- Main screen buttons -->
+    <string name="btn_order_burger">Order Burger</string>
+    <string name="btn_order_sandwich">Order Sandwich</string>
+    <string name="btn_order_beverage">Order Beverage</string>
+    <string name="btn_order_side">Order Side</string>
+    <string name="btn_view_order">View Order</string>
+
+    <!-- Ordering screens -->
+    <string name="btn_add_to_order">Add to Order</string>
+    <string name="choose_bread">Choose Bread</string>
+    <string name="choose_patty">Choose Patty</string>
+    <string name="choose_protein">Choose Protein</string>
+    <string name="choose_side">Choose Side</string>
+    <string name="choose_size">Choose Size</string>
+
+    <!-- Order details -->
+    <string name="btn_clear_order">Clear Order</string>
+    <string name="btn_complete_order">Complete Order</string>
+    <string name="confirm_clear">Are you sure you want to clear the order?</string>
+    <string name="msg_order_completed">Order completed!</string>
+
+
+    <string name="desc_burger_image">Burger image</string>
+    <string name="desc_sandwich_image">Sandwich image</string>
+    <string name="desc_side_image">Side dish image</string>
+
+    <!-- RecyclerView item: flavor image description -->
+    <string name="flavor_image_desc">Flavor image</string>
+</resources>
