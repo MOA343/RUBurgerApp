@@ -1,22 +1,93 @@
-# 🍔 RUBurgerApp
+# RUBurgerApp 🍔
 
-RUBurgerApp is an Android application that simulates a burger-ordering system.  
-Users can browse burgers, sandwiches, sides, and beverages, customize their order, and review order details before checkout.
+RUBurgerApp is a fully-featured Android app developed in Kotlin for creating custom burger orders with intuitive user interfaces, dynamic pricing, and full order management. Designed for an engaging user experience, it supports multiple food categories such as burgers, sandwiches, sides, and beverages.
+
+## 📱 Features
+
+- 🧾 **Dynamic Price Updates**: Prices automatically adjust based on user selections.
+- 🍔 **Customizable Burgers & Sandwiches**: Choose bread, protein, and add-ons.
+- 🧃 **Drinks and Sides**: Select quantity and type from drop-down spinners.
+- 📦 **Order Review & Management**:
+  - View complete order details
+  - Cancel items or clear the entire order
+  - Complete and finalize order
+- 💾 **Order Export**: Save your complete order summary to a local file.
+- ✅ **UI Components Used**:
+  - `RecyclerView`
+  - `Toast`
+  - `AlertDialog`
+  - `Spinner`
+  - `ListView`
+  - `ImageView`
+
+## 📂 Project Structure
+
+```bash
+RUBurgerApp/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/ruburger/
+│   │   │   │   ├── model/                # Data models (Burger, Sandwich, etc.)
+│   │   │   │   ├── adapter/              # RecyclerView Adapters
+│   │   │   │   ├── *.kt                  # Activities
+│   │   │   ├── res/
+│   │   │   │   ├── layout/               # XML Layouts
+│   │   │   │   ├── drawable/             # App icons and images
+│   │   │   │   ├── values/               # Strings, arrays, colors, themes
+│   │   │   │   └── xml/                  # Backup & data extraction
+│   ├── build.gradle.kts
+├── build.gradle.kts
+└── libs.versions.toml
+🧪 Testing
+Unit tests are written with JUnit under:
+
+bash
+Copy
+Edit
+app/src/test/java/com/example/ruburger/
+Use Android Studio’s test runner to verify:
+
+Pricing logic
+
+Order management (add/remove/clear)
+
+Item creation validation
+
+🧰 Tech Stack
+Language: Kotlin
+
+UI Toolkit: Android XML layouts (not Jetpack Compose)
+
+Frameworks: AndroidX, Material Components
+
+Build Tool: Gradle Kotlin DSL
+
+Testing: JUnit
+
+📸 Screenshots
+(Add screenshots of your app screens here, such as main menu, burger builder, and order details)
+
+📦 APK
+To build and install the APK:
+
+bash
+Copy
+Edit
+./gradlew assembleDebug
+adb install app/build/outputs/apk/debug/app-debug.apk
+🧑‍💻 Authors
+Muhammad Abbasi - @MOA343
+
+Aaman Gafur
+
+📄 License
+This project is for academic purposes under Rutgers University CS214 Project 5.
+
+yaml
+Copy
+Edit
 
 ---
 
-## 🚀 Features
-- 📋 **Menu Browsing** – View burgers, sandwiches, sides, and beverages  
-- 🍔 **Customization** – Choose bread, protein, flavors, and add-ons  
-- 🛒 **Order Management** – Add items to cart and review them  
-- 📱 **Clean UI** – Interactive activities for each menu section  
-- ✅ **Order Summary** – Checkout simulation with details  
-
----
-
-## 🛠️ Tech Stack
-- **Language:** Kotlin + Java  
-- **Framework:** Android SDK  
-- **Architecture:** Activity-based navigation  
-- **UI:** XML layouts & Android Views  
-
+Let me know if you want a shorter version, or one with actual screenshots or badges (e.g. GitHub actions, build status, APK download badge).
