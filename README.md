@@ -38,7 +38,7 @@ RUBurgerApp/
 │   ├── build.gradle.kts
 ├── build.gradle.kts
 └── libs.versions.toml
-
+```
 
 
 ---
