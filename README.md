@@ -39,13 +39,14 @@ RUBurgerApp/
 │   ├── build.gradle.kts
 ├── build.gradle.kts
 └── libs.versions.toml
+
 🧪 Testing
+
 Unit tests are written with JUnit under:
 
-bash
-Copy
-Edit
 app/src/test/java/com/example/ruburger/
+
+
 Use Android Studio’s test runner to verify:
 
 Pricing logic
@@ -55,6 +56,7 @@ Order management (add/remove/clear)
 Item creation validation
 
 🧰 Tech Stack
+
 Language: Kotlin
 
 UI Toolkit: Android XML layouts (not Jetpack Compose)
@@ -66,28 +68,22 @@ Build Tool: Gradle Kotlin DSL
 Testing: JUnit
 
 📸 Screenshots
+
 (Add screenshots of your app screens here, such as main menu, burger builder, and order details)
 
 📦 APK
+
 To build and install the APK:
 
-bash
-Copy
-Edit
 ./gradlew assembleDebug
 adb install app/build/outputs/apk/debug/app-debug.apk
+
 🧑‍💻 Authors
+
 Muhammad Abbasi - @MOA343
 
 Aaman Gafur
 
 📄 License
+
 This project is for academic purposes under Rutgers University CS214 Project 5.
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want a shorter version, or one with actual screenshots or badges (e.g. GitHub actions, build status, APK download badge).
