@@ -40,8 +40,9 @@ RUBurgerApp/
 ├── build.gradle.kts
 └── libs.versions.toml
 
-## 🧪 Testing
 
+**## 🧪 Testing
+**
 Unit tests are written with **JUnit** under:
 
 app/src/test/java/com/example/ruburger/
@@ -53,8 +54,8 @@ Use Android Studio’s test runner to verify:
 
 ---
 
-## 🧰 Tech Stack
-- **Language:** Kotlin  
+**## 🧰 Tech Stack
+**- **Language:** Kotlin  
 - **UI Toolkit:** Android XML layouts (not Jetpack Compose)  
 - **Frameworks:** AndroidX, Material Components  
 - **Build Tool:** Gradle Kotlin DSL  
@@ -62,9 +63,8 @@ Use Android Studio’s test runner to verify:
 
 ---
 
-## 📸 Screenshots
-_Add screenshots of your app screens here (e.g., main menu, burger builder, order details)._  
-
+**## 📸 Screenshots
+**
 ---
 
 ## 📦 APK
