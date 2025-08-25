@@ -37,9 +37,7 @@ RUBurgerApp/
 ├── build.gradle.kts
 └── libs.versions.toml
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -48,9 +46,6 @@ Unit tests are written with **JUnit** under:
 
 app/src/test/java/com/example/ruburger/
 
-yaml
-Copy
-Edit
 
 Use Android Studio’s test runner to verify:
 - ✅ Pricing logic  
@@ -69,7 +64,7 @@ Use Android Studio’s test runner to verify:
 ---
 
 ## 📸 Screenshots
-_Add screenshots of your app here (e.g., main menu, burger builder, order details)._  
+_..._  
 
 ---
 
@@ -87,10 +82,5 @@ Aaman Gafur
 📄 License
 This project is for academic purposes under Rutgers University CS214 Project 5.
 
-yaml
-Copy
-Edit
 
 ---
-
-Would you like me to also add **badges at the top** (e.g., Android API level, Kotlin version, Gradle build) so it looks extra professional like open-source Android repos?
