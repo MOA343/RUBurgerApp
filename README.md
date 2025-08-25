@@ -20,6 +20,3 @@ Users can browse burgers, sandwiches, sides, and beverages, customize their orde
 - **Architecture:** Activity-based navigation  
 - **UI:** XML layouts & Android Views  
 
----
-
-## 📂 Project Structure
