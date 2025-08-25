@@ -20,20 +20,22 @@ Designed for an engaging user experience, it supports multiple food categories s
 ---
 
 ## 📂 Project Structure
+
+```bash
 RUBurgerApp/
 ├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/ruburger/
-│ │ │ │ ├── model/ # Data models (Burger, Sandwich, etc.)
-│ │ │ │ ├── adapter/ # RecyclerView Adapters
-│ │ │ │ ├── *.kt # Activities
-│ │ │ ├── res/
-│ │ │ │ ├── layout/ # XML Layouts
-│ │ │ │ ├── drawable/ # App icons and images
-│ │ │ │ ├── values/ # Strings, arrays, colors, themes
-│ │ │ │ └── xml/ # Backup & data extraction
-│ ├── build.gradle.kts
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/ruburger/
+│   │   │   │   ├── model/                # Data models (Burger, Sandwich, etc.)
+│   │   │   │   ├── adapter/              # RecyclerView Adapters
+│   │   │   │   ├── *.kt                  # Activities
+│   │   │   ├── res/
+│   │   │   │   ├── layout/               # XML Layouts
+│   │   │   │   ├── drawable/             # App icons and images
+│   │   │   │   ├── values/               # Strings, arrays, colors, themes
+│   │   │   │   └── xml/                  # Backup & data extraction
+│   ├── build.gradle.kts
 ├── build.gradle.kts
 └── libs.versions.toml
 
